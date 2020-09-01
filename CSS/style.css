@@ -1,0 +1,91 @@
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .banar-container {
+        background-color: #CBCACC;
+        opacity: 0.8;
+    }
+    
+    .banar-column {
+        background-color: #3F4448;
+    }
+    
+    .navbar-container {
+        background-color: #e3f2fd;
+    }
+    
+    .about-container {
+        background-color: rgba(172, 230, 201, 0.26);
+    }
+    
+    .education-container {
+        background-color: rgba(172, 34, 34, 0.555);
+    }
+    
+    .education-color {
+        color: #09509E;
+    }
+    
+    .circle {
+        background-color: #09509E;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+    
+    .card-body {
+        background-color: #F6F8FA;
+    }
+    
+    .project-container {
+        background-color: rgb(104, 131, 180);
+    }
+    
+    .portfolio-container {
+        background-color: rgb(202, 196, 196);
+    }
+    
+    .from-container {
+        background-color: #E4F0F5;
+    }
+    
+    .inner-form {
+        background-color: #E4F8E1;
+    }
+    
+    .redtype {
+        background-color: rgb(86, 130, 252);
+    }
+    
+    .redtype:hover {
+        color: rgb(3, 250, 77) !important;
+    }
+    
+    .footer {
+        background-color: #5891A2;
+    }
+    
+    #em {
+        color: coral;
+    }
+    
+    #em:hover {
+        color: rgb(71, 231, 143);
+        text-decoration: none;
+    }
+    
+    .logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: white;
+        font-size: 40px;
+        text-align: center;
+        color: #2BB3DD;
+    }
+    
+    .logo:hover {
+        background-color: #474D5D;
+    }
