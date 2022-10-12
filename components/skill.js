@@ -8,7 +8,7 @@ class Skill extends HTMLElement {
       <p class="p-4 text-teal">Skills</p>
     </div>
 
-    <div class="w-full grid grid-cols-9 items-center mx-auto rounded-lg">
+    <div class="w-full grid grid-cols-9 items-center mx-auto py-6 rounded-lg">
       <div x-data="{
         open: false,
         toggle() {

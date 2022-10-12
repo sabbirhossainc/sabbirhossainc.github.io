@@ -11,7 +11,7 @@ class Education extends HTMLElement {
     </div>
 
     <div class="flex justify-around items-center">
-      <p class="text-xl font-semibold m-6 dark:text-success">
+      <p class="text-xl font-medium m-6 dark:text-success underline underline-offset-8 decoration-from-font decoration-teal">
         <i class="fa-solid fa-user-graduate"></i> Education |
         <i class="fa-solid fa-briefcase"></i> Work
       </p>
@@ -30,7 +30,7 @@ class Education extends HTMLElement {
           </svg>
         </div>
         <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
-        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 duration-200">
+        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
           <p class="text-xl font-bold text-teal">2017-2020</p>
           <p class="pt-2 text-base font-semibold">
             Computer Science and Engineering
@@ -53,7 +53,7 @@ class Education extends HTMLElement {
           </svg>
         </div>
         <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
-        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 duration-200">
+        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
           <p class="text-xl font-bold text-teal">2018 | 2019</p>
           <p class="pt-2 text-base font-semibold">
             Trained on UX/UI Design | Bootcamp Workshop
@@ -74,7 +74,7 @@ class Education extends HTMLElement {
           </svg>
         </div>
         <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
-        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 duration-200">
+        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
           <p class="text-xl font-bold text-teal">2021</p>
           <p class="pt-2 text-base font-semibold">Junior Fornt-end Developer</p>
           <p class="pt-2 text-base font-medium">Expert Consortium Ltd.</p>
@@ -93,7 +93,7 @@ class Education extends HTMLElement {
           </svg>
         </div>
         <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:bg-yellow dark:before:bg-teal"></div>
-        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 duration-200">
+        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
           <p class="text-xl font-bold text-teal">2022</p>
           <p class="pt-2 text-base font-semibold">Junior Back-end Developer</p>
           <p class="pt-2 text-base font-medium">Beautysiaa Ltd.</p>

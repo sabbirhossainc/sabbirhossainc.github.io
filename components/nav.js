@@ -37,25 +37,23 @@ class Nav extends HTMLElement {
 
                                 <!-- Profile dropdown -->
 
+                                <!-- Dropdown menu, show/hide based on menu state.
+                                Entering: "transition ease-out duration-100"
+                                From: "transform opacity-0 scale-95"
+                                To: "transform opacity-100 scale-100"
+                                Leaving: "transition ease-in duration-75"
+                                From: "transform opacity-100 scale-100"
+                                To: "transform opacity-0 scale-95" -->
+                                
                                 <div class="flex ml-4">
                                     <div>
                                         <span class="sr-only">Open user menu</span>
-                                        <p class=" text-slate-400 py-2 rounded-md text-base font-medium antialiased">
+                                        <p class="text-slate-300 py-2 rounded-md text-base font-medium antialiased">
                                         Md. Sabbir Hossain
-                                            </p>
+                                        </p>
                                     </div>
-                                    <!-- Dropdown menu, show/hide based on menu state.
-  
-                  Entering: "transition ease-out duration-100"
-                    From: "transform opacity-0 scale-95"
-                    To: "transform opacity-100 scale-100"
-                  Leaving: "transition ease-in duration-75"
-                    From: "transform opacity-100 scale-100"
-                    To: "transform opacity-0 scale-95" -->
-
                                     <div class="inline-flex items-center justify-around pl-3">
-                                        <!--<span class="sr-only"></span>-->
-                                        <img class="h-8 w-8 rounded-full items-center" src="/img/sabbir(350).png"
+                                        <img class="h-8 w-8 rounded-full items-center ring-2 ring-slate-400" src="/img/sabbir(350).png"
                                             alt="Your Company">
                                     </div>
                                 </div>
@@ -96,8 +94,7 @@ class Nav extends HTMLElement {
                     <div :class="isOpen ? 'block' : 'hidden'" class="md:hidden block" id="mobile-menu">
                         <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                            <a href="#" class="no-underline hover:bg-success text-white hover:text-blue block px-3 py-2 rounded-md text-base font-medium"
-                                aria-current="page">Dashboard</a>
+                            <a href="#" class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>
 
                             <a href="#about"
                                 class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">About</a>

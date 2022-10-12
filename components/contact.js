@@ -9,49 +9,51 @@ class Contact extends HTMLElement {
                 <p class="p-4 text-teal dark:text-success">Contact</p>
             </div>
             <div class="w-full items-center justify-around grid grid-cols-9 gap-2 md:gap-6 mx-auto mt-6 rounded-lg">
-                <div class="w-full col-span-9 md:col-span-4 rounded-lg bg-teal py-6 md:py-36 shadow-xl">
-                     <p class="font-semibold text-xl h-full text-center text-success">Keep In Touch</p>
+
+                <div class="w-full col-span-9 md:col-span-4 space-y-6 md:space-y-8 rounded-lg bg-teal py-8 md:py-24 shadow-2xl">
+                <div class="flex justify-center p-2">
+                <i class="fa-solid fa-users-between-lines text-yellow scale-[3]"></i>
+                </div>
+                <div class="flex justify-center p-2">
+                <p class="font-semibold text-2xl md:text-3xl text-success">Get In Touch</p>
+                </div>
+                <div class="flex justify-center p-2">
+                <i class="fa-solid fa-face-smile text-yellow scale-[3]"></i>
+                </div>
                 </div>
 
                 <div class="col-span-1 w-full h-full"></div>
 
-                <div class="w-full col-span-9 md:col-span-4 rounded-lg bg-teal p-6 shadow-xl">
+                <div class="w-full h-full col-span-9 md:col-span-4 space-y-14 rounded-lg bg-teal p-6 shadow-2xl">
 
                     <div class="flex inline-block items-center px-4 gap-2 justify-start 
-                    shadow-lg rounded-lg hover:bg-blue hover:bg-opacity-50 duration-200">
+                    shadow-2xl rounded-lg hover:bg-blue hover:bg-opacity-50 select-all duration-200">
                     <div class="m-3">
                     <i class="fa-brands fa-square-whatsapp text-success scale-[3]"></i>
                     </div>
-                        <p class="font-medium text-base h-full m-3 text-yellow">
-                            WhatsApp  
-                            <br>
+                        <p class="font-medium text-base h-full m-5 text-yellow">
                             +8801827062978
                         </p>
                     </div>
 
-                    <div class="w-full h-3"></div>
-
+                    
                     <div class="flex inline-block items-center px-4 gap-2 justify-start
-                    shadow-lg rounded-lg hover:bg-blue hover:bg-opacity-50 duration-200">
+                    shadow-2xl rounded-lg hover:bg-blue hover:bg-opacity-50 select-all duration-200">
                     <div class="m-3">
                     <i class="fa-solid fa-square-envelope text-success scale-[3]"></i>
                     </div>
-                        <p class="font-medium text-base h-full m-3 text-yellow">
-                            Email  
-                            <br>
+                        <p class="font-medium text-base h-full m-5 text-yellow">
                             shr472978@gmail.com
                         </p>
                     </div>
-
-                    <div class="w-full h-3"></div>
+                    
 
                     <div class="flex inline-block items-center px-4 gap-2 justify-center
-                    shadow-lg rounded-lg hover:bg-blue hover:bg-opacity-50 duration-200">
+                    shadow-2xl rounded-lg hover:bg-blue hover:bg-opacity-50 select-all duration-200">
                     <div class="m-3">
                     <i class="fa-solid fa-location-crosshairs text-success scale-[3]"></i>
                     </div>
-                        <p class="font-medium text-justify text-base h-full m-3 text-yellow">
-                            Location<br>
+                        <p class="font-medium text-justify text-base h-full m-5 text-yellow">
                             2 B/GHA 9, Road-2, Block B, Mirpur-2 
                             <br class="md:block hidden">
                             Dhaka 1216.
