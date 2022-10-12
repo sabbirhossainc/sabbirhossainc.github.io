@@ -1,91 +1,35 @@
-    body {
-        font-family: 'Open Sans', sans-serif;
-    }
+/* 
     
-    .banar-container {
-        background-color: #CBCACC;
-        opacity: 0.8;
-    }
+    adobe color
     
-    .banar-column {
-        background-color: #3F4448;
-    }
-    
-    .navbar-container {
-        background-color: #e3f2fd;
-    }
-    
-    .about-container {
-        background-color: rgba(172, 230, 201, 0.26);
-    }
-    
-    .education-container {
-        background-color: rgba(172, 34, 34, 0.555);
-    }
-    
-    .education-color {
-        color: #09509E;
-    }
-    
-    .circle {
-        background-color: #09509E;
-        width: 140px;
-        height: 140px;
-        border-radius: 50%;
-    }
-    
-    .card-body {
-        background-color: #F6F8FA;
-    }
-    
-    .project-container {
-        background-color: rgb(104, 131, 180);
-    }
-    
-    .portfolio-container {
-        background-color: rgb(202, 196, 196);
-    }
-    
-    .from-container {
-        background-color: #E4F0F5;
-    }
-    
-    .inner-form {
-        background-color: #E4F8E1;
-    }
-    
-    .redtype {
-        background-color: rgb(86, 130, 252);
-    }
-    
-    .redtype:hover {
-        color: rgb(3, 250, 77) !important;
-    }
-    
-    .footer {
-        background-color: #5891A2;
-    }
-    
-    #em {
-        color: coral;
-    }
-    
-    #em:hover {
-        color: rgb(71, 231, 143);
-        text-decoration: none;
-    }
-    
-    .logo {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        display: inline-block;
-        background-color: white;
-        font-size: 40px;
-        text-align: center;
-        color: #2BB3DD;
-    }
-    
-    .logo:hover {
-        background-color: #474D5D;
-    }
+    */ /* Color Theme Swatches in Hex */
+#Blue {
+  color: #001542;
+}
+#teal {
+  color: #085454;
+}
+#navy {
+  color: #7a7a7a;
+}
+#white {
+  color: #ffffff;
+}
+#yellow {
+  color: #ffb30d;
+}
+
+.pat{
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='57' height='57' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(107)'%3E%3Crect width='100%25' height='100%25' fill='rgba(8, 84, 84, 0)'/%3E%3Cpath d='M0 9a 11 11 0 0 1 11 11a 9 9 0 0 0 9 9v2a-11-11 0 0 1-11-11a-9-9 0 0 0-9-9z' fill='rgba(8, 84, 84, 1)'/%3E%3Cpath d='M20 20.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5zM20 60.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z' fill='rgba(255, 179, 13, 1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
+}
+
+
+/* .pattern{
+    background-color: #491991;
+    background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' 
+    xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 
+    8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636
+     32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8
+      8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 
+      34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%237e55c0' fill-opacity='0.87' fill-rule='evenodd'/%3E%3C/svg%3E");
+} */

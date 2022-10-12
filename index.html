@@ -1,287 +1,659 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="/img/sabbir(350).png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <title>Sabbir</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" type="image/png" href="/img/sabbir(350).png" />
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/CSS/style.css" />
+  <script src="https://kit.fontawesome.com/ea30a0e1b3.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            denger: "#ef3b2d",
+            success: "#C8E7D3",
+            active: "#71B58B",
+            old: "#ace6c942",
+            blue: "#001542",
+            teal: "#085454",
+            navy: "#7A7A7A",
+            white: "#FFFFFF",
+            // yellow: "#FFB30D",
+            // yellow_a: "#FFC745",
+          },
+          fontFamily: {
+            sans: ["Poppins", "Raleway", "Open Sans", "sans-serif"],
+            serif: ["Marcellus", "serif"],
+          },
+        },
+      },
+    };
+  </script>
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+  <title>Sabbir</title>
 </head>
 
 <body>
+  <main>
+    <nav class="fixed w-full bg-teal opacity-80 shadow">
+      <div x-data="{ isOpen: false }" class="mx-auto max-w-6xl px-12 sm:px-7 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="flex items-center">
+            <!-- 4444444444  -->
+            <div class="hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="#"
+                  class="hover:bg-success no-underline text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium"
+                  aria-current="page">Dashboard</a>
 
-    <!-- navbar section -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light navbar-container">
-        <a class="navbar-brand" href="#">Sabbir</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <a href="#about"
+                  class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">About</a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#project">Project</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#footer">Footer</a>
-                </li>
-            </ul>
+                <a href="#education"
+                  class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Education</a>
+                <a href="#skills"
+                  class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Skills</a>
+
+                <a href="#project"
+                  class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+
+                <a href="#contact"
+                  class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-4 flex items-center md:ml-6">
+              <!-- Profile dropdown -->
+
+              <div class="flex ml-4">
+                <div>
+                  <span class="sr-only">Open user menu</span>
+                  <p class="text-white px-2 py-2 rounded-md text-base font-medium">
+                    Md. Sabbir Hossain
+                  </p>
+                </div>
+                <!-- Dropdown menu, show/hide based on menu state.
+
+              Entering: "transition ease-out duration-100"
+                From: "transform opacity-0 scale-95"
+                To: "transform opacity-100 scale-100"
+              Leaving: "transition ease-in duration-75"
+                From: "transform opacity-100 scale-100"
+                To: "transform opacity-0 scale-95" -->
+
+                <div class="inline-flex items-center justify-around">
+                  <!--<span class="sr-only"></span>-->
+                  <img class="h-8 w-8 rounded-full items-center" src="/img/sabbir(350).png" alt="Your Company" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="-mr-2 flex md:hidden">
+            <!-- Mobile menu button -->
+            <button @click="isOpen = !isOpen" type="button"
+              class="inline-flex items-center justify-center rounded-md hover:bg-success text-white hover:text-blue p-2"
+              aria-controls="mobile-menu" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <!--
+            Heroicon name: outline/bars-3
+
+            Menu open: "hidden", Menu closed: "block"
+          -->
+              <svg :class="isOpen ? 'block' : 'hidden'" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <!--
+            Heroicon name: outline/x-mark
+
+            Menu open: "block", Menu closed: "hidden"
+          -->
+              <svg :class="isOpen ? 'hidden' : 'block'" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
         </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div :class="isOpen ? 'hidden' : 'block'" class="md:hidden hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#"
+              class="no-underline hover:bg-success text-white hover:text-blue block px-3 py-2 rounded-md text-base font-medium"
+              aria-current="page">Dashboard</a>
+
+            <a href="#about"
+              class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">About</a>
+
+            <a href="#education"
+              class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Education</a>
+
+            <a href="#skills"
+              class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Skills</a>
+
+            <a href="#project"
+              class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+
+            <a href="#contact"
+              class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+          </div>
+        </div>
+      </div>
     </nav>
-    <!-- <h1>This is banar section</h1> -->
-    <section class="banar-container">
-        <div class="row vh-100">
-            <div class="col-md-9 banar-column m-auto text-white text-center p-4">
-                <h1 class="display-4 font-weight-bolder">Md. Sabbir Hossain</h1>
-                <h3>Web Developer</h3>
-            </div>
-        </div>
-    </section>
-    <!-- this is About section -->
-    <div class="about-container" id="about">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col p-3">
-                    <h2 class="education-color font-weight-bolder">About</h2>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-8 py-3 text-dark">
-                    <h3>Md. Sabbir Hossain</h3>
-                    <p>Web Developer</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id possimus tempora numquam incidunt veritatis nisi consequatur eveniet eos assumenda adipisci, quas labore odit quaerat quod eum tenetur voluptatibus perferendis similique.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia provident necessitatibus, sequi autem mollitia ipsum modi expedita cum aut nemo voluptates explicabo commodi? Nobis, sunt quos. Sunt iure pariatur reiciendis delectus
-                        error numquam ipsam labore odio voluptate cumque? Neque nobis aliquid ex tempora repellendus aspernatur sequi laboriosam soluta dolores nulla.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur est mollitia obcaecati porro debitis repudiandae omnis aut, tempora minima laboriosam officiis vitae labore sequi quo culpa sit sint at minus?</p>
-                </div>
-                <div class="col-md-4 p-5">
-                    <img src="/img/sabbir(350).png" alt="Sabbir" class="img-fluid rounded-circle border border-dark">
+  </main>
 
-                </div>
-            </div>
+  <!-- <h1>This is banar section</h1> -->
+  <!-- <section class="banar-container">
+      <div class="row vh-100">
+        <div class="col-md-9 banar-column m-auto text-white text-center p-4">
+          <h1 class="display-4 font-weight-bolder">Md. Sabbir Hossain</h1>
+          <h3>Web Developer</h3>
         </div>
+      </div>
+    </section> -->
+
+  <!-- this is About section -->
+  <section>
+    <div class="mx-auto h-auto max-w-7xl p-6 py-28 bg-slate-100 rounded-lg" id="about">
+      <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
+        About
+      </div>
+      <div class="bg-yellow p-12 my-6 mb-20 shadow-md rounded-md md:shadow-xl hover:bg-opacity-80 duration-200">
+        <p class="tracking-wide font-bold text-center uppercase">
+          _ Hello Sabbir here _
+        </p>
+        <!-- <br> -->
+        <p class="flow-root py-10 first-letter:text-3xl indent-8 font-medium justify-center">
+          The first quality that comes to my mind is I am a quick learner and
+          a self-motivated person. I am a good presenter. On top of that, I
+          managed to participate in 5 seminars and workshops as well. My full
+          name is Md. Sabbir Hossain and I was born in my hometown Chuadanga.
+          I have completed my bachelor of computer science and engineering
+          degree from Daffodil International University. My goal is to become
+          a good Web Developer and I love to inspire people who can eventually
+          help to reach their goals. So I believe in people motivation and
+          people management which I am passionate about fascinated by work.
+        </p>
+      </div>
     </div>
-    <!-- This is Education section -->
-    <div class="education-container" id="education">
-        <div class="container ">
-            <div class="row text-center">
-                <div class="col p-5">
-                    <h2 class="education-color font-weight-bolder">Education</h2>
-                </div>
+  </section>
+
+  <!-- This is Education section -->
+  <section class="flex min-h-screen justify-center">
+    <div class="mx-auto h-auto max-w-7xl p-6 py-28 rounded-lg" id="education">
+      <div class="flex flex-wrap justify-around items-center font-bold text-3xl">
+        <p class="p-4 dark:text-white">Qualification</p>
+      </div>
+
+      <div class="flex justify-around items-center">
+        <p class="text-xl m-6 dark:text-white">
+          <i class="fa-solid fa-user-graduate"></i> Education |
+          <i class="fa-solid fa-briefcase"></i> Work
+        </p>
+      </div>
+
+      <!-- <div class="w-full grid grid-cols-9 items-center mx-auto">
+          1111
+          <div class="col-span-4 w-full h-full">
+            <div class="w-full h-full bg-yellow rounded-md p-3 md:pl-4">
+              <h1 class="text-teal text-xl font-medium py-2 align-right ">2017</h1>
+              <p class="text-lg font-base">
+                Lorem ipsum Lorem ipsum dolor sit amet.
+              </p>
             </div>
-            <div class="row py-4 align-items-center justify-content-center">
-                <div class="col-mt-auto pb-4">
-                    <div class="circle text-center text-white">
-                        <p class="py-5">Jan,2014 <br> Dec,2016
-                        </p>
-                    </div>
-                </div>
+          </div>
 
-                <div class="col-md-8">
-                    <div class="card m-4">
-                        <div class="card-body m-auto p-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus voluptatem, cupiditate, nam quidem omnis magnam molestiae ullam quod mollitia nobis aut eligendi placeat blanditiis possimus exercitationem. Blanditiis fuga voluptate sapiente modi vel,
-                            dicta placeat nesciunt ex doloremque fugit amet cum ad qui, pariatur excepturi maiores velit nisi officia impedit!
-                        </div>
-                    </div>
-                </div>
+          <div
+            class="relative col-span-1 w-full h-full flex justify-center items-baseline"
+          >
+            <div class="h-full w-1 bg-yellow"></div>
+            <div class="absolute w-6 h-6 rounded-full bg-teal z-10"></div>
+          </div>
+
+          <div class="col-span-4 w-full h-full"></div>
+
+          <div class="col-span-4 w-full h-full"></div>
+          <div
+            class="relative col-span-1 w-full h-full flex justify-center items-center"
+          >
+            <div class="h-full w-1 bg-yellow"></div>
+            <div class="absolute w-6 h-6 rounded-full bg-teal z-10"></div>
+          </div>
+
+
+          <div class="col-span-4 w-full h-full my-2">
+            <div class="w-full h-full bg-yellow rounded-md p-3 md:pl-4">
+              <h1 class="text-teal text-xl font-medium py-2 ">2017</h1>
+              <p class="text-lg font-base">
+                Lorem ipsum Lorem ipsum dolor sit amet.
+              </p>
             </div>
+          </div>
 
-            <div class="row py-4 align-items-center justify-content-center">
-                <div class="col-mt-auto pb-4">
-                    <div class="circle text-center text-white">
-                        <p class="py-5">Jan,2014 <br> Dec,2016
-                        </p>
-                    </div>
-                </div>
+        </div> -->
 
-                <div class="col-md-8">
-                    <div class="card m-4">
-                        <div class="card-body m-auto p-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus voluptatem, cupiditate, nam quidem omnis magnam molestiae ullam quod mollitia nobis aut eligendi placeat blanditiis possimus exercitationem. Blanditiis fuga voluptate sapiente modi vel,
-                            dicta placeat nesciunt ex doloremque fugit amet cum ad qui, pariatur excepturi maiores velit nisi officia impedit!
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+      <ul>
+        <li class="relative flex gap-6 items-baseline pb-4">
+          <div class="z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="bi bi-circle-fill fill-teal"
+              viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8" />
+            </svg>
+          </div>
+          <div
+            class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow">
+          </div>
+          <div class="bg-yellow bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 duration-200">
+            <p class="text-xl font-medium text-teal">2017-2020</p>
+            <p class="pt-2 text-base font-bold">
+              Computer Science and Engineering
+            </p>
+            <p class="pt-2 text-base font-normal">
+              Daffodil International University
+            </p>
+          </div>
+        </li>
+        <li class="relative flex gap-6 items-baseline pb-4">
+          <div class="z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="bi bi-circle-fill fill-teal"
+              viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8" />
+            </svg>
+          </div>
+          <div
+            class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow">
+          </div>
+          <div class="bg-yellow bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 duration-200">
+            <p class="text-xl font-medium text-teal">2018 | 2019</p>
+            <p class="pt-2 text-base font-bold">
+              Trained on UX/UI Design | Bootcamp Workshop
+            </p>
+            <p class="pt-2 text-base font-normal">ICT DIVISION | Userhub</p>
+          </div>
+        </li>
+        <li class="relative flex gap-6 items-baseline pb-4">
+          <div class="z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="bi bi-circle-fill fill-teal"
+              viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8" />
+            </svg>
+          </div>
+          <div
+            class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow">
+          </div>
+          <div class="bg-yellow bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 duration-200">
+            <p class="text-xl font-medium text-teal">2021</p>
+            <p class="pt-2 text-base font-bold">Junior Fornt-end Developer</p>
+            <p class="pt-2 text-base font-normal">Expert Consortium Ltd.</p>
+          </div>
+        </li>
+        <li class="relative flex gap-6 items-baseline pb-4">
+          <div class="z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="bi bi-circle-fill fill-teal"
+              viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8" />
+            </svg>
+          </div>
+          <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:bg-yellow"></div>
+          <div class="bg-yellow bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 duration-200">
+            <p class="text-xl font-medium text-teal">2022</p>
+            <p class="pt-2 text-base font-bold">Junior Back-end Developer</p>
+            <p class="pt-2 text-base font-normal">Beautysiaa</p>
+          </div>
+        </li>
+      </ul>
     </div>
-    <!-- This is Project section -->
-    <div class="project-container" id="project">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-5">
-                    <h2 class="text-white font-weight-bolder">Projects</h2>
-                </div>
-            </div>
-            <div class="row py-5">
-                <div class="col-md-3">
-                    <img src="/img/project(350).jpg" class="img-fluid img-thumbnail" alt="project">
-                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-                    <p>10:45am</p>
-                </div>
-                <div class="col-md-3">
-                    <img src="/img/project2(350).jpg" class="img-thumbnail" alt="project">
-                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-                    <p>11:45am</p>
-                </div>
-                <div class="col-md-3">
-                    <img src="/img/project3(350).jpg" class="img-fluid img-thumbnail" alt="project">
-                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-                    <p>10:45pm</p>
-                </div>
-                <div class="col-md-3">
-                    <img src="/img/project(350).jpg" class="img-thumbnail" alt="project">
-                    <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-                    <p>11:45pm</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Tish is Portfolio section -->
-    <div class="portfolio-container" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center py-5">
-                    <h2 class="text-dark font-weight-bolder">Portfolio</h2>
-                </div>
-            </div>
-            <div class="row py-5">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/img/profetion(350).jpg" class="img-fluid" alt="project">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/img/profetion2(350).jpg" class="img-fluid" alt="project">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/img/profetion3(350).jpg" class="img-fluid" alt="project">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row py-4">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/img/profetion3(350).jpg" class="img-fluid" alt="project">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/img/profetion2(350).jpg" class="img-fluid" alt="project">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="/img/profetion(350).jpg" class="img-fluid" alt="project">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  </section>
+  <!-- This is Skill section -->
+
+  <div class="mx-auto h-auto max-w-7xl p-6 py-16 bg-slate-100 rounded-lg" id="skills">
+    <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
+      <p class="p-4 text-teal">Skills</p>
     </div>
 
-    <!-- This is Conteact section -->
-    <div class="from-container" id="contact">
-        <div class="container">
-            <div class="row py-5">
-                <div class="col text-dark text-center m-auto">
-                    <h2 class="font-weight-bold">Life can only be understood backwards</h2>
-                    <p>But it must be lived forwards</p>
-                </div>
-            </div>
-            <div class="row py-4">
-                <div class="col-sm border mr-1 text-center border-dark text-dark">
-                    <span style="font-size:72px">30</span>
-                    <h4>Failed Attemps</h4>
-                </div>
-                <div class="col-sm border mr-1 text-center border-dark text-dark">
-                    <span style="font-size:72px">40</span>
-                    <h4>Succeeded</h4>
-                </div>
-                <div class="col-sm border mr-1 text-center border-dark text-dark">
-                    <span style="font-size:72px">20</span>
-                    <h4>Attemps Lefts</h4>
-                </div>
-                <div class="col-sm border text-center border-dark text-dark">
-                    <span style="font-size:72px">80</span>
-                    <h4>Unauthorized Attemps</h4>
-                </div>
-            </div>
+    <div class="w-full grid grid-cols-9 items-center mx-auto rounded-lg">
+      <div x-data="{
+        open: false,
+        toggle() {
+            if (this.open) {
+                return this.close()
+            }
+
+            this.$refs.button.focus()
+
+            this.open = true
+        },
+        close(focusAfter) {
+            if (! this.open) return
+
+            this.open = false
+
+            focusAfter && focusAfter.focus()
+        }
+      }" x-on:keydown.escape.prevent.stop="close($refs.button)" x-id="['dropdown-button']"
+        class="col-span-9 md:col-span-4 p-2 bg-teal rounded-lg">
+        <div class="inline-flex space-x-32 items-center md:space-x-60">
+          <p class="text-white font-bold sm:text-xl md:text-2xl ml-4">
+            <i class="fa-solid fa-code"></i> Fornt-end Skills
+          </p>
+          <button x-ref="button" x-on:click="toggle()" :aria-expanded="open" :aria-controls="$id('dropdown-button')"
+            type="button" class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1">
+            <svg :class="open ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg :class="open ? 'block' : 'hidden'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M11.47 7.72a.75.75 0 011.06 0l7.5 7.5a.75.75 0 11-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 01-1.06-1.06l7.5-7.5z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
         </div>
 
-        <div class="row py-5">
-            <div class="col text-dark text-center m-auto">
-                <h2 class="font-weight-bold">Keep In Touch</h2>
-                <p>I'm going to strive to build all my apps as fully static sites, give me a shout</p>
+        <div x-ref="panel" x-show="open" x-transition.origin.top.left :id="$id('dropdown-button')"
+          style="display: none;" class="col-span-9 md:col-span-4 w-full h-full">
+          <div class="w-full h-full rounded-md p-3 md:pl-4">
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Html
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-[255px] md:w-[400px] h-2 rounded-lg">
+              <span
+                class="relative bg-yellow -top-8 ml-64 md:ml-[100%] rounded-t-lg rounded-br-lg p-1 text-blue items-center">80%</span>
+              <div class="relative ml-64 md:ml-[400px] -top-[35px] md:-top-9 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row pb-4">
-                <div class="col text-dark">
-                    <h4>Shoot a message!</h4>
-                </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Css
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-52 md:w-80 h-2 rounded-lg">
+              <span
+                class="absolute bg-yellow -top-9 ml-[207px] md:ml-80 rounded-t-lg rounded-br-lg p-1 text-blue items-center">70%</span>
+              <div class="relative ml-[208px] md:ml-80 -top-[11px] md:-top-3 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
             </div>
 
-            <form action="#">
-                <div class="form-row pb-4">
-                    <div class="col">
-                        <input type="text" class="form-control inner-form" placeholder="Your Name">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control inner-form" placeholder="Your Email">
-                    </div>
-                </div>
-
-                <div class="row pb-3">
-                    <div class="col">
-                        <textarea name="" class="form-control inner-form" id="" cols="30" rows="5" placeholder="Your message"></textarea>
-                    </div>
-                </div>
-
-                <div class="row pb-4">
-                    <div class="col ">
-                        <button class="btn redtype pb-2 text-center text-danger">Send Message</button>
-                    </div>
-                </div>
-            </form>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              React Js
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-52 md:w-80 h-2 rounded-lg">
+              <span
+                class="absolute bg-yellow -top-9 ml-[207px] md:ml-80 rounded-t-lg rounded-br-lg p-1 text-blue items-center">70%</span>
+              <div class="relative ml-[208px] md:ml-80 -top-[11px] md:-top-3 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Alpine.js
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-[160px] md:w-60 h-2 rounded-lg">
+              <span
+                class="relative bg-yellow -top-8 ml-[160px] md:ml-60 rounded-t-lg rounded-br-lg p-1 text-blue items-center">50%</span>
+              <div class="relative ml-[160px] md:ml-60 -top-9 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Tailwind CSS
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-[160px] md:w-60 h-2 rounded-lg">
+              <span
+                class="relative bg-yellow -top-8 ml-[160px] md:ml-60 rounded-t-lg rounded-br-lg p-1 text-blue items-center">50%</span>
+              <div class="relative ml-[160px] md:ml-60 -top-9 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="col-span-1 w-full h-full justify-around items-center">
+        <div class="w-4 h-4"></div>
+      </div>
+
+      <div x-data="{
+        open: false,
+        toggle() {
+            if (this.open) {
+                return this.close()
+            }
+
+            this.$refs.button.focus()
+
+            this.open = true
+        },
+        close(focusAfter) {
+            if (! this.open) return
+
+            this.open = false
+
+            focusAfter && focusAfter.focus()
+        }
+    }" x-on:keydown.escape.prevent.stop="close($refs.button)" x-id="['dropdown-button']"
+        class="col-span-9 md:col-span-4 p-2 bg-teal rounded-lg">
+        <div class="inline-flex space-x-32 items-center md:space-x-60">
+          <p class="text-white font-bold sm:text-xl md:text-2xl ml-4">
+            <i class="fa-solid fa-terminal"></i>
+            Back-end Skills&nbsp;
+          </p>
+          <button x-ref="button" x-on:click="toggle()" :aria-controls="$id('dropdown-button')" type="button"
+            class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1 hover:bg-opacity-80 duration-200">
+            <svg :class="open ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg :class="open ? 'block' : 'hidden'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M11.47 7.72a.75.75 0 011.06 0l7.5 7.5a.75.75 0 11-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 01-1.06-1.06l7.5-7.5z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+
+        <div x-ref="panel" x-show="open" x-transition.origin.top.left :id="$id('dropdown-button')"
+          style="display: none;" class="col-span-9 md:col-span-4 w-full h-full">
+          <div class="w-full h-full rounded-md p-3 md:pl-4">
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Php
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-52 md:w-80 h-2 rounded-lg">
+              <span
+                class="absolute bg-yellow -top-9 ml-[207px] md:ml-80 rounded-t-lg rounded-br-lg p-1 text-blue items-center">70%</span>
+              <div class="relative ml-[208px] md:ml-80 -top-[11px] md:-top-3 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Mysql
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-52 md:w-80 h-2 rounded-lg">
+              <span
+                class="absolute bg-yellow -top-9 ml-[207px] md:ml-80 rounded-t-lg rounded-br-lg p-1 text-blue items-center">70%</span>
+              <div class="relative ml-[208px] md:ml-80 -top-[11px] md:-top-3 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Mongo DB
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-[255px] md:w-[400px] h-2 rounded-lg">
+              <span
+                class="relative bg-yellow -top-8 ml-64 md:ml-[100%] rounded-t-lg rounded-br-lg p-1 text-blue items-center">80%</span>
+              <div class="relative ml-64 md:ml-[400px] -top-[35px] md:-top-9 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Laravel
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-52 md:w-80 h-2 rounded-lg">
+              <span
+                class="absolute bg-yellow -top-9 ml-[207px] md:ml-80 rounded-t-lg rounded-br-lg p-1 text-blue items-center">70%</span>
+              <div class="relative ml-[208px] md:ml-80 -top-[11px] md:-top-3 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Node.js
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-[160px] md:w-60 h-2 rounded-lg">
+              <span
+                class="relative bg-yellow -top-8 ml-[160px] md:ml-60 rounded-t-lg rounded-br-lg p-1 text-blue items-center">50%</span>
+              <div class="relative ml-[160px] md:ml-60 -top-9 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-span-9 w-full h-full justify-around items-center">
+        <div class="w-4 h-4"></div>
+      </div>
+
+      <div x-data="{
+        open: false,
+        toggle() {
+            if (this.open) {
+                return this.close()
+            }
+  
+            this.$refs.button.focus()
+  
+            this.open = true
+        },
+        close(focusAfter) {
+            if (! this.open) return
+  
+            this.open = false
+  
+            focusAfter && focusAfter.focus()
+        }
+        }" x-on:keydown.escape.prevent.stop="close($refs.button)" x-id="['dropdown-button']"
+        class="col-span-9 md:col-span-4 p-2 bg-teal rounded-lg">
+        <div class="inline-flex space-x-40 items-center md:space-x-72">
+          <p class="text-white font-bold sm:text-xl md:text-2xl ml-4">
+            <i class="fa-solid fa-bezier-curve"></i> UX/UI Skills &nbsp;
+          </p>
+          <button x-ref="button" x-on:click="toggle()" :aria-controls="$id('dropdown-button')" type="button"
+            class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1 hover:bg-opacity-80 duration-200">
+            <svg :class="open ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg :class="open ? 'block' : 'hidden'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M11.47 7.72a.75.75 0 011.06 0l7.5 7.5a.75.75 0 11-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 01-1.06-1.06l7.5-7.5z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+
+        <div x-ref="panel" x-show="open" x-transition.origin.top.left :id="$id('dropdown-button')"
+          style="display: none;" class="col-span-4 w-full h-full">
+          <div class="w-full h-full rounded-md p-3 md:pl-4">
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Figma
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-[160px] md:w-60 h-2 rounded-lg">
+              <span
+                class="relative bg-yellow -top-8 ml-[160px] md:ml-60 rounded-t-lg rounded-br-lg p-1 text-blue items-center">50%</span>
+              <div class="relative ml-[160px] md:ml-60 -top-9 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+            <h1 class="text-white text-base font-medium py-2 align-right">
+              Adobe XD
+            </h1>
+            <div class="bg-success w-full h-2 rounded-lg"></div>
+            <div class="relative -top-2 bg-yellow w-[160px] md:w-60 h-2 rounded-lg">
+              <span
+                class="relative bg-yellow -top-8 ml-[160px] md:ml-60 rounded-t-lg rounded-br-lg p-1 text-blue items-center">50%</span>
+              <div class="relative ml-[160px] md:ml-60 -top-9 -rotate-45"><i
+                  class="fa-solid fa-caret-up text-yellow"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-span-1 w-full h-full justify-around items-center">
+        <div class="w-4 h-4"></div>
+      </div>
+
+      <div class="col-span-4 w-full h-full justify-around items-center">
+        <div class="w-4 h-4"></div>
+      </div>
     </div>
-    <!-- This is Footer section -->
-    <section>
+
+  </div>
+  </div>
+
+  <!-- This is Project section -->
+  <div class="mx-auto h-auto max-w-7xl p-6 py-28 bg-slate-100 rounded-lg" id="project">
+    <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
+      <p class="p-4">project</p>
+    </div>
+
+    <div class="">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus
+      voluptatem, cupiditate, nam quidem omnis magnam molestiae ullam quod
+      mollitia nobis aut eligendi placeat blanditiis possimus exercitationem.
+      Blanditiis fuga voluptate sapiente modi vel, dicta placeat nesciunt ex
+      doloremque fugit amet cum ad qui, pariatur excepturi maiores velit nisi
+      officia impedit!
+    </div>
+  </div>
+
+  <!-- Tish is Portfolio section -->
+  <div class="mx-auto h-auto max-w-7xl p-6 py-28 rounded-lg" id="portfolio">
+    <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
+      <p class="p-4">portfolio</p>
+    </div>
+    <div class="">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus
+      voluptatem, cupiditate, nam quidem omnis magnam molestiae ullam quod
+      mollitia nobis aut eligendi placeat blanditiis possimus exercitationem.
+      Blanditiis fuga voluptate sapiente modi vel, dicta placeat nesciunt ex
+      doloremque fugit amet cum ad qui, pariatur excepturi maiores velit nisi
+      officia impedit!
+    </div>
+  </div>
+
+  <!-- This is Conteact section -->
+  <div class="mx-auto h-auto max-w-7xl p-6 py-28 bg-slate-100 rounded-lg" id="contact">
+    <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
+      <p class="p-4">contact</p>
+    </div>
+    <h2 class="font-weight-bold">Keep In Touch</h2>
+  </div>
+
+  <!-- This is Footer section -->
+  <!-- <section>
         <div class="footer" id="footer">
             <div class="conteiner">
                 <div class="row py-4">
@@ -313,13 +685,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
 </body>
 
 </html>
