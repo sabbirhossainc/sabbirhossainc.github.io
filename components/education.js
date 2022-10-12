@@ -11,7 +11,7 @@ class Education extends HTMLElement {
     </div>
 
     <div class="flex justify-around items-center">
-      <p class="text-xl font-medium m-6 dark:text-success underline underline-offset-8 decoration-from-font decoration-teal">
+      <p class="text-xl font-medium m-6 dark:text-yellow underline underline-offset-8 decoration-from-font decoration-teal">
         <i class="fa-solid fa-user-graduate"></i> Education |
         <i class="fa-solid fa-briefcase"></i> Work
       </p>
