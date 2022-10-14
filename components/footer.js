@@ -3,7 +3,7 @@ class Footer extends HTMLElement {
     super();
     this.innerHTML = `
         <footer
-        class="fixed bottom-0 left-0 w-full flex items-center justify-center 
+        class="z-10 fixed bottom-0 left-0 w-screen md:w-full flex items-center justify-center 
         font-bold bg-teal text-success
         h-16 opacity-90">
         <p class="ml-2 text-xs md:text-sm antialiased">

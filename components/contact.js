@@ -4,11 +4,11 @@ class Contact extends HTMLElement {
         this.innerHTML = `
 
 <section class="flex min-h-screen justify-center">
-        <div class="mx-auto h-auto max-w-7xl p-6  rounded-lg scroll-my-16" id="contact">
+        <div class="mx-auto h-fit max-w-7xl p-6 md:px-16 pb-16 bg-slate-300 rounded-lg shadow-2xl scroll-my-16" id="contact">
             <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
-                <p class="p-4 text-teal dark:text-success">Contact</p>
+                <p class="p-4 text-teal">Contact</p>
             </div>
-            <div class="w-full items-center justify-around grid grid-cols-9 gap-2 md:gap-6 mx-auto mt-6 rounded-lg">
+            <div class="w-full items-center justify-around grid grid-cols-9 gap-2 md:gap-12 mx-auto pt-6 rounded-lg">
 
                 <div class="w-full col-span-9 md:col-span-4 space-y-6 md:space-y-8 rounded-lg bg-teal py-8 md:py-24 shadow-2xl">
                 <div class="flex justify-center p-2">

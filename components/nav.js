@@ -7,18 +7,24 @@ class Nav extends HTMLElement {
             <body class="h-full"> -->
 
     
-            <nav class="bg-teal opacity-80 shadow-lg fixed top-0 left-0 w-full z-10">
-                <div x-data="{ isOpen: false }" class="mx-auto max-w-7xl px-12 sm:px-7 lg:px-8">
+            <nav class="bg-teal opacity-80 shadow-lg fixed top-0 left-0 w-screen z-10">
+                <div x-data="{
+                    isOpen: false,
+                }" 
+                class="mx-auto max-w-7xl px-12 sm:px-7 lg:px-8">
                     <div class="flex h-16 items-center justify-between">
                         <div class="flex items-center">
                             <!-- 4444444444  -->
                             <div class="hidden md:block">
                                 <div class="flex items-baseline space-x-4">
                                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                                    <a href="#" class="hover:bg-success no-underline text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium"
+                                    <a href="#"
+                                     
+                                        class="hover:bg-success no-underline text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium"
                                         aria-current="page">Dashboard</a>
 
-                                    <a href="#about"
+                                    <a href="#about" 
+                                  
                                         class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">About</a>
 
                                     <a href="#education"
@@ -26,6 +32,9 @@ class Nav extends HTMLElement {
 
                                     <a href="#skills"
                                         class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Skills</a>
+                                    
+                                    <a href="#projects"
+                                        class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Projects</a>
 
                                     <a href="#contact"
                                         class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Contact</a>
@@ -104,6 +113,9 @@ class Nav extends HTMLElement {
 
                             <a href="#skills"
                                 class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Skills</a>
+                            
+                            <a href="#projects"
+                                class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Projects</a>
 
                             <a href="#contact"
                                 class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium">Contact</a>

@@ -3,8 +3,9 @@ class About extends HTMLElement {
     super();
     this.innerHTML = `
 
-    <section class="flex min-h-auto justify-center">
-<div class="mx-auto h-auto max-w-7xl p-6 py-6 bg-slate-300 rounded-lg shadow-2xl scroll-my-16" id="about">
+    <section class="flex min-h-auto justify-center" >
+<div class="mx-auto h-auto max-w-7xl p-6 py-6 bg-slate-300 rounded-lg shadow-2xl scroll-my-16"
+ id="about">
       <div
         class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl text-teal"
       >
