@@ -34,7 +34,7 @@ class Skill extends HTMLElement {
             <i class="fa-solid fa-code"></i> Fornt-end Skills
           </p>
           <button x-ref="button" x-on:click="toggle()" :aria-expanded="open" :aria-controls="$id('dropdown-button')"
-            type="button" class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1">
+            type="button" class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1 hover:bg-opacity-80">
             <svg :class="open ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
               class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path fill-rule="evenodd"
@@ -50,7 +50,16 @@ class Skill extends HTMLElement {
           </button>
         </div>
 
-        <div x-ref="panel" x-show="open" x-transition.origin.top.left :id="$id('dropdown-button')"
+        <div x-ref="panel" x-show="open"
+
+        x-transition:enter="transition transform origin-top-left ease-out duration-100"
+        x-transition:enter-start="opacity-0 scale-90" 
+        x-transition:enter-end="opacity-100 scale-100"
+        x-transition:leave="transition transform origin-top-left ease-in duration-75"
+        x-transition:leave-start="opacity-100 scale-100" 
+        x-transition:leave-end="opacity-0 scale-90" 
+
+        :id="$id('dropdown-button')"
           style="display: none;" class="col-span-9 md:col-span-4 w-full h-full">
           <div class="w-full h-full rounded-md p-3 md:pl-4">
             <h1 class="text-success text-base font-medium py-2 align-right">
@@ -138,7 +147,7 @@ class Skill extends HTMLElement {
             Back-end Skills&nbsp;
           </p>
           <button x-ref="button" x-on:click="toggle()" :aria-controls="$id('dropdown-button')" type="button"
-            class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1 hover:bg-opacity-80 duration-200">
+            class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1 hover:bg-opacity-80">
             <svg :class="open ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
               class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path fill-rule="evenodd"
@@ -154,7 +163,16 @@ class Skill extends HTMLElement {
           </button>
         </div>
 
-        <div x-ref="panel" x-show="open" x-transition.origin.top.left :id="$id('dropdown-button')"
+        <div x-ref="panel" x-show="open"
+
+        x-transition:enter="transition transform origin-top-left ease-out duration-100"
+        x-transition:enter-start="opacity-0 scale-90" 
+        x-transition:enter-end="opacity-100 scale-100"
+        x-transition:leave="transition transform origin-top-left ease-in duration-75"
+        x-transition:leave-start="opacity-100 scale-100" 
+        x-transition:leave-end="opacity-0 scale-90"
+
+         :id="$id('dropdown-button')"
           style="display: none;" class="col-span-9 md:col-span-4 w-full h-full">
           <div class="w-full h-full rounded-md p-3 md:pl-4">
             <h1 class="text-success text-base font-medium py-2 align-right">
@@ -240,7 +258,7 @@ class Skill extends HTMLElement {
             <i class="fa-solid fa-bezier-curve"></i> UX/UI Skills &nbsp;
           </p>
           <button x-ref="button" x-on:click="toggle()" :aria-controls="$id('dropdown-button')" type="button"
-            class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1 hover:bg-opacity-80 duration-200">
+            class="text-success hover:bg-success hover:text-blue rounded-full duration-200 p-1 hover:bg-opacity-80">
             <svg :class="open ? 'hidden' : 'block'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
               class="w-6 h-6 block" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
               <path fill-rule="evenodd"
@@ -256,7 +274,16 @@ class Skill extends HTMLElement {
           </button>
         </div>
 
-        <div x-ref="panel" x-show="open" x-transition.origin.top.left :id="$id('dropdown-button')"
+        <div x-ref="panel" x-show="open" 
+
+        x-transition:enter="transition transform origin-top-left ease-out duration-100"
+        x-transition:enter-start="opacity-0 scale-90" 
+        x-transition:enter-end="opacity-100 scale-100"
+        x-transition:leave="transition transform origin-top-left ease-in duration-75"
+        x-transition:leave-start="opacity-100 scale-100" 
+        x-transition:leave-end="opacity-0 scale-90"
+        
+        :id="$id('dropdown-button')"
           style="display: none;" class="col-span-4 w-full h-full">
           <div class="w-full h-full rounded-md p-3 md:pl-4">
             <h1 class="text-success text-base font-medium py-2 align-right">
