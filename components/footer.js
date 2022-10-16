@@ -3,15 +3,15 @@ class Footer extends HTMLElement {
     super();
     this.innerHTML = `
         <footer
-        class="z-10 fixed bottom-0 left-0 w-screen md:w-full flex items-center justify-center 
+        class="z-10 fixed bottom-0 left-0 w-screen flex flex-col md:flex-row md:gap-2 items-center justify-center 
         font-bold bg-teal text-success
         h-16 opacity-90">
-        <p class="ml-2 text-xs md:text-sm antialiased">
+        <p class="text-sm text-center antialiased">
         Copyright &copy; 2022. All Rights reserved. 
-        <em class="font-weight-light"> 
+        </p>
+        <em class="font-light text-sm text-center tracking-wider"> 
         Md Sabbir Hossain
         </em>
-        </p>
         </footer>
         `;
   }

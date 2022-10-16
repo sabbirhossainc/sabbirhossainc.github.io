@@ -18,7 +18,7 @@ class Hero extends HTMLElement {
                     </div>
 
             <div class="order-1 h-auto items-center px-4">
-                <div class="order-2 px-4 dark:text-success md:mt-10">
+                <div class="order-2 md:px-4 dark:text-success md:mt-10">
                     <p class="text-2xl font-bold text-4xl md:text-5xl">
                     Hi, I'am Sabbir.
                     </p>
@@ -34,21 +34,24 @@ class Hero extends HTMLElement {
                         <hr>
                     </div>
 
-                    <div class="flex inline-block space-x-7 py-2 md:py-3 justify-center md:justify-start bg-slate-300 rounded-lg md:pl-4 items-center shadow-md">
-                        <a href="https://github.com/sabbirhossainc" class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
+                    <div class="flex inline-block space-x-7 py-3 md:py-3 justify-center md:justify-start bg-slate-300 rounded-md md:pl-4 items-center shadow-md">
+                        <a href="https://github.com/sabbirhossainc" target="_blank"
+                        class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
                             <i class="fa-brands fa-github scale-[2]"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/sabbirhossainbio" class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
+                        <a href="https://www.linkedin.com/in/sabbirhossainbio" target="_blank"
+                        class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
                             <i class="fa-brands fa-linkedin scale-[2]"></i>
                         </a>
-                        <a href="https://www.facebook.com/sabbirhossainf" class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
+                        <a href="https://www.facebook.com/sabbirhossainf" target="_blank"
+                        class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
                             <i class="fa-brands fa-facebook scale-[2]"></i>
                         </a>
                     </div>
 
-                    <div class="py-4"> <hr> </div>
+                    <div class="pt-4"> <hr> </div>
                 </div>
-                    <div class="order-3 space-x-4 px-4 pb-4 md:pb-2 md:my-2">
+                    <div class="flex order-3 md:space-x-6 md:px-4 py-5 items-center md:items-start justify-around md:justify-start">
                             <a href="#contact" class="rounded-md bg-teal text-success antialiased
                              p-2 md:p-3 items-center uppercase font-medium
                             hover:bg-success hover:text-blue duration-500 shadow-xl">
@@ -57,7 +60,7 @@ class Hero extends HTMLElement {
                             </a>
                             <a href="/pdf/Sabbir Hossain-CV.pdf"
                             class="rounded-md bg-teal text-success antialiased
-                            space-x-2 p-2 ml-4 md:p-3 items-center uppercase font-medium
+                            space-x-2 p-2 md:p-3 items-center uppercase font-medium
                             hover:bg-success hover:text-blue
                             md:ring-2 md:dark:ring-2 ring-offset-2 ring-blue dark:ring-offset-0 dark:ring-inset dark:ring-success hover:ring-teal
                             duration-300 shadow-xl">

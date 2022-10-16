@@ -26,7 +26,7 @@ this.innerHTML = `
                                 with ui description and animated interactions.
                                 User authentication, post jobs, manage jobs and so on.
                             </p>
-                            <a href="https://laragig.herokuapp.com/"
+                            <a href="https://laragig.herokuapp.com/" target="_blank"
                                 class="bg-denger p-2 rounded-md text-white text-center text-base font-medium px-4 hover:text-black shadow-xl duration-200">
                                 <span class="text-black">Live</span> preview <i
                                     class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -49,7 +49,7 @@ this.innerHTML = `
                                 with ui description and animated interactions.
                                 React project, Autistic School Website. Innovate | Achieve and so on.
                             </p>
-                            <a href="https://kidas.netlify.app/"
+                            <a href="https://kidas.netlify.app/" target="_blank"
                                 class="bg-[#0f2b5b] p-2 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#51b5e0] shadow-xl duration-200">
                                 <span class="text-[#51b5e0]">Live</span> preview <i
                                     class="fa-solid fa-arrow-up-right-from-square"></i>
