@@ -3,10 +3,11 @@ class Nav extends HTMLElement {
         super();
         this.innerHTML = `
 
-<!-- This example requires updating your template:
-        <html class="h-full bg-gray-100">
-            <body class="h-full">
- -->
+<!-- 
+This example requires updating your template:
+    <html class="h-full bg-gray-100">
+     <body class="h-full">
+-->
 
 <nav class="bg-teal opacity-80 shadow-lg fixed top-0 left-0 w-screen z-10">
     <div x-data="{
