@@ -14,7 +14,7 @@ class Hero extends HTMLElement {
                     <div class="md:order-2 m-6">
                         <img class="h-36 w-36 md:h-80 md:w-80 md:scale-110 lg:scale-125
                         bg-origin-content ring-4 ring-teal bg-center 
-                        rounded-full drop-shadow-2xl" src="/img/sabbir(350).png" alt="">
+                        rounded-full drop-shadow-2xl" src="/img/sabbir_black.png" alt="">
                     </div>
 
             <div class="order-1 h-auto items-center px-4">
