@@ -8,8 +8,8 @@ class Hero extends HTMLElement {
                     py-6 md:py-24 px-6 lg:py-28">
        
         <div class="flex flex-wrap h-auto md:gap-52
-                    justify-center md:items-center rounded-lg 
-                    border-2 border-dotted border-success shadow-2xl">
+                    justify-center md:items-center rounded-lg border-2 border-navy
+                    dark:border-2 border-dotted dark:border-success shadow-2xl">
         
                     <div class="md:order-2 m-6">
                         <img class="h-36 w-36 md:h-80 md:w-80 md:scale-110 lg:scale-125
@@ -30,11 +30,9 @@ class Hero extends HTMLElement {
                         </br> 
                         Good at backend development and producing quality work.
                     </p>
-                    <div class="py-4">
-                        <hr>
-                    </div>
+                    <div class="border-b-2 mt-2 border-navy"></div>
 
-                    <div class="flex inline-block space-x-7 py-3 md:py-3 justify-center md:justify-start bg-slate-300 rounded-md md:pl-4 items-center shadow-md">
+                    <div class="flex inline-block space-x-7 my-3 py-3 md:py-2 justify-center md:justify-start bg-slate-300 rounded-md md:pl-4 items-center shadow-md">
                         <a href="https://github.com/sabbirhossainc" target="_blank"
                         class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
                             <i class="fa-brands fa-github scale-[2]"></i>
@@ -49,9 +47,10 @@ class Hero extends HTMLElement {
                         </a>
                     </div>
 
-                    <div class="pt-4"> <hr> </div>
+                    <div class="border-t-2 mb-2 border-navy"></div>
+
                 </div>
-                    <div class="flex order-3 md:space-x-6 md:px-4 py-5 items-center md:items-start justify-around md:justify-start">
+                    <div class="flex order-3 md:space-x-6 md:px-4 py-3 items-center md:items-start justify-around md:justify-start">
                             <a href="#contact" class="rounded-md bg-teal text-success antialiased
                              p-2 md:p-3 items-center uppercase font-medium
                             hover:bg-success hover:text-blue duration-500 shadow-xl">

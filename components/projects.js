@@ -6,7 +6,7 @@ class Project extends HTMLElement {
 <section class="flex min-h-max justify-center">
     <div class="mx-auto h-auto max-w-7xl py-10 rounded-lg scroll-my-16" id="projects">
         <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
-            <p class="p-4 text-teal  dark:text-success">Projects</p>
+            <p class="p-4 text-teal dark:text-success">Projects</p>
         </div>
         <div class="bg-slate-100 w-screen md:w-auto md:px-12 md:mb-20 rounded-md bg-opacity-90">
 

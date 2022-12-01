@@ -68,6 +68,10 @@
   object-fit: cover;
 }
 
+.bg-image{
+  background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+}
+
 /* .pattern{
     background-color: #491991;
     background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' 
