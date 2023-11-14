@@ -13,27 +13,6 @@ class Project extends HTMLElement {
             <div class="swiper mySwiper scroll-smooth">
                 <div class="swiper-wrapper items-center py-2">
 
-                    <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
-                        <div class="p-2">
-                            <img src="/img/laragig.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
-                        </div>
-                        <div class="w-fit md:w-full py-2 text-3xl">
-                            <p class="font-bold text-3xl text-denger">
-                                Lara<span class="text-black">gigs</span>
-                            </p>
-                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
-                                Website adaptable to all devices,
-                                with ui description and animated interactions.
-                                User authentication, post jobs, manage jobs and so on.
-                            </p>
-                            <a href="https://laragig.herokuapp.com/" target="_blank"
-                                class="bg-denger py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-black shadow-xl duration-200">
-                                <span class="text-black">Live</span> preview <i
-                                    class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
 
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
