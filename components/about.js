@@ -15,7 +15,7 @@ class About extends HTMLElement {
         class="bg-teal text-white text-justify p-12 my-6 mb-20 shadow-md rounded-md md:shadow-lg bg-opacity-90 hover:bg-opacity-100 duration-200"
       >
         <p class="text-success font-bold text-center uppercase">
-          _ Hello Sabbir here _
+          _ Hello, Sabbir here _
         </p>
         <!-- <br> -->
         <p
@@ -25,8 +25,8 @@ class About extends HTMLElement {
         I have completed my bachelor of computer science and engineering degree from Daffodil International University. My goal is to become a Full Stack Developer and I love to inspire people who can eventually help to reach their goals. I believe in people motivation and people management which I am passionate about fascinated by work.
       </p>
         <p class="text-success font-medium justify-center py-5">
-          <strong class="text-yellow">Front-End:</strong> &nbsp; HTML5, Tailwind CSS, Alpine.js, React, Redux<br>
-          <strong class="text-yellow">Back-End:</strong>&nbsp; Laravel. MySQL, PostgreSQL<br>
+          <strong class="text-yellow">Front-End:</strong> &nbsp; HTML5, Tailwind CSS, Alpine.js, React, Redux, Next <br>
+          <strong class="text-yellow">Back-End:</strong>&nbsp; MongoDb, MySQL, PostgreSQL<br>
           <strong class="text-yellow">Tools & Methods:</strong>&nbsp; Git, GitHub, Mobile/Responsive Development, Chrome Dev Tools<br>
           <strong class="text-yellow">Professional:</strong>&nbsp; Remote Work, Pair-Programming, Teamwork<br>
         </p>
