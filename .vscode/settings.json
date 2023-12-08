@@ -1,12 +1,10 @@
 {
-    "tailwindCSS.experimental.classRegex": [
-    
-    ],
-    "tailwindCSS.emmetCompletions": true,
-    "tailwindCSS.experimental.configFile": null,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorStyle": "block-outline",
-    "editor.fontLigatures": false,
-    "editor.formatOnSave": true
+  "tailwindCSS.experimental.classRegex": [],
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.configFile": null,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block-outline",
+  "editor.fontLigatures": false,
+  "editor.formatOnSave": true
 }
