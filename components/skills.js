@@ -3,7 +3,7 @@ class Skill extends HTMLElement {
     super();
     this.innerHTML = `
     <section class="flex min-h-auto justify-center">
-    <div class="mx-auto h-auto max-w-7xl p-6 mb-10 pb-16 bg-slate-300 rounded-lg bg-slate-100 shadow-2xl scroll-my-16" id="skills">
+    <div class="mx-auto h-auto max-w-7xl p-6 mb-20 pb-16 bg-slate-300 rounded-lg bg-slate-100 shadow-2xl scroll-my-16" id="skills">
     <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
       <p class="p-4 text-teal">Skills</p>
     </div>
