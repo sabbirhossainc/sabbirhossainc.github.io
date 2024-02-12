@@ -13,53 +13,6 @@ class Project extends HTMLElement {
             <div class="swiper mySwiper scroll-smooth">
                 <div class="swiper-wrapper items-center py-2">
 
-                <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
-                
-                <div class="p-2">
-                            <img src="/img/homefi.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
-                        </div>
-                        <div class="w-fit md:w-full py-2 text-3xl">
-                            <p class="font-bold text-3xl text-oldBlu">
-                                Home<span class="text-old">fi</span>
-                            </p>
-                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
-                                Website adaptable to all devices,
-                                Fully customized with html,css;
-                                Figma to html,css and js conversion project.
-                            </p>
-                            <a href="https://homefi-pointflow.netlify.app/" target="_blank"
-                                class="bg-oldBlu py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-old shadow-xl duration-200">
-                                <span class="text-old">Live</span> preview <i
-                                    class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-               
-               
-                    <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
-                
-                <div class="p-2">
-                            <img src="/img/losangeles.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
-                        </div>
-                        <div class="w-fit md:w-full py-2 text-3xl">
-                            <p class="font-bold text-3xl text-Mbrow">
-                                Los<span class="text-Mblue">angeles</span>
-                            </p>
-                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
-                            Website adaptable to all devices,
-                            Fully customized with html,css;
-                            Psd to html,css and js conversion project.
-                            </p>
-                            <a href="https://losangelsmountain.netlify.app/" target="_blank"
-                                class="bg-Mblue py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-black shadow-xl duration-200">
-                                <span class="text-black">Live</span> preview <i
-                                    class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-                
-
-
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
                         <div class="p-2">
@@ -103,7 +56,52 @@ class Project extends HTMLElement {
                             </a>
                         </div>
                     </div>
+               
+               
+                    <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+                
+                <div class="p-2">
+                            <img src="/img/losangeles.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-Mbrow">
+                                Los<span class="text-Mblue">angeles</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                            Website adaptable to all devices,
+                            Fully customized with html,css;
+                            Psd to html,css and js conversion project.
+                            </p>
+                            <a href="https://losangelsmountain.netlify.app/" target="_blank"
+                                class="bg-Mblue py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-black shadow-xl duration-200">
+                                <span class="text-black">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
 
+                <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+                
+                <div class="p-2">
+                            <img src="/img/homefi.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-oldBlu">
+                                Home<span class="text-old">fi</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                                Website adaptable to all devices,
+                                Fully customized with html,css;
+                                Figma to html,css and js conversion project.
+                            </p>
+                            <a href="https://homefi-pointflow.netlify.app/" target="_blank"
+                                class="bg-oldBlu py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-old shadow-xl duration-200">
+                                <span class="text-old">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
                         <div class="p-2">
