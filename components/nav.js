@@ -27,6 +27,9 @@ This example requires updating your template:
                             class="hover:bg-success no-underline text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium"
                             aria-current="page">Dashboard</a>
 
+                        <a href="#projects" @click="tab = 'tab5'" :class="{'bg-success text-blue' : tab ==='tab5'}"
+                            class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                            
                         <a href="#about" @click="tab = 'tab2'" :class="{'bg-success text-blue' : tab ==='tab2'}"
                             class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">About</a>
 
@@ -35,9 +38,6 @@ This example requires updating your template:
 
                         <a href="#skills" @click="tab = 'tab4'" :class="{'bg-success text-blue' : tab ==='tab4'}"
                             class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Skills</a>
-
-                        <a href="#projects" @click="tab = 'tab5'" :class="{'bg-success text-blue' : tab ==='tab5'}"
-                            class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Projects</a>
 
                         <a href="#contact" @click="tab = 'tab6'" :class="{'bg-success text-blue' : tab ==='tab6'}"
                             class="no-underline hover:bg-success text-success hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Contact</a>
@@ -106,6 +106,9 @@ This example requires updating your template:
                 <a href="#" @click="tab = 'tab1'" :class="{'bg-success text-blue' : tab ==='tab1'}"
                     class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium duration-100">Dashboard</a>
 
+                <a href="#projects" @click="tab = 'tab5'" :class="{'bg-success text-blue' : tab ==='tab5'}"
+                    class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium duration-100">Projects</a>
+                    
                 <a href="#about" @click="tab = 'tab2'" :class="{'bg-success text-blue' : tab ==='tab2'}"
                     class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium duration-100">About</a>
 
@@ -114,9 +117,6 @@ This example requires updating your template:
 
                 <a href="#skills" @click="tab = 'tab4'" :class="{'bg-success text-blue' : tab ==='tab4'}"
                     class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium duration-100">Skills</a>
-
-                <a href="#projects" @click="tab = 'tab5'" :class="{'bg-success text-blue' : tab ==='tab5'}"
-                    class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium duration-100">Projects</a>
 
                 <a href="#contact" @click="tab = 'tab6'" :class="{'bg-success text-blue' : tab ==='tab6'}"
                     class="no-underline hover:bg-success text-success hover:text-blue block px-3 py-2 rounded-md text-base font-medium duration-100">Contact</a>
