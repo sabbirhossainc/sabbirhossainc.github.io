@@ -57,7 +57,7 @@ class Hero extends HTMLElement {
                     Contact Me
                     <i class="fa-solid fa-circle-chevron-right"></i>
                     </a>
-                    <a href="/pdf/Sabbir Hossain-CV.pdf"
+                    <a href="/pdf/sabbir_hossain_resume.pdf"
                     class="rounded-md bg-teal text-success antialiased
                     space-x-2 p-2 md:p-3 items-center uppercase font-medium
                     hover:bg-success hover:text-blue
