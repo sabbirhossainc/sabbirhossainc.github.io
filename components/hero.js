@@ -3,7 +3,7 @@ class Hero extends HTMLElement {
     super();
     this.innerHTML = `
 
-<section class="flex min-h-auto justify-center" >
+<section>
     <div class="mx-auto h-auto max-w-7xl 
                     py-6 md:py-24 px-6 lg:py-28">
        

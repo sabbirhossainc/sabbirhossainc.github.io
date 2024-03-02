@@ -2,9 +2,8 @@ class Contact extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-
-<section class="flex min-h-screen justify-center">
-    <div class="mx-auto h-fit max-w-7xl p-6 md:px-16 pb-16 bg-slate-300 rounded-lg shadow-2xl scroll-my-16"
+<section>
+    <div class="mx-auto h-fit max-w-7xl p-6 md:px-16 pb-16 mb-32 bg-slate-300 rounded-lg shadow-2xl scroll-my-16"
         id="contact">
         <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
             <p class="p-4 text-teal">Contact</p>
@@ -71,7 +70,6 @@ class Contact extends HTMLElement {
 
     </div>
 </section>
-
     `;
   }
 }

@@ -2,13 +2,6 @@ class Nav extends HTMLElement {
     constructor() {
         super();
         this.innerHTML = `
-
-<!-- 
-This example requires updating your template:
-    <html class="h-full bg-gray-100">
-     <body class="h-full">
--->
-
 <nav class="bg-teal opacity-80 shadow-lg fixed top-0 left-0 w-screen z-10">
     <div x-data="{
                     isOpen: false,
@@ -46,7 +39,7 @@ This example requires updating your template:
             </div>
 
             <!-- Dark mode -->
-            <div class="ml-auto">
+            <div class="ml-auto hidden md:block">
 
             <div class="flex justify-center items-center">
 
@@ -64,6 +57,10 @@ This example requires updating your template:
 
             <div class="block">
             <div class="flex items-center justify-center gap-4">
+            <div class="block md:hidden">
+                            <img class="h-8 w-8 rounded-md ring-1 ring-slate-400"
+                                src="/img/sabbir(350).png" alt="Your Company">
+                        </div>
                         <div>
                             <span class="sr-only">Open user menu</span>
                             <p class="text-slate-300 py-2 rounded-md text-base font-medium antialiased">
@@ -140,13 +137,10 @@ This example requires updating your template:
 </nav>
 
 <header class="bg-blue fixed-top">
-    <div class="min-h-full">
-        <div class="mx-auto max-w-6xl py-8 px-4 sm:px-6 lg:px-8 shadow-lg">
-            <!--
-                <h1 class="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
-            -->
+<div class="min-h-full">
+<div class="mx-auto max-w-6xl py-8 px-4 sm:px-6 lg:px-8 shadow-lg">
         </div>
-</header>
+        </header>
 
         `;
     }

@@ -2,10 +2,10 @@ class Project extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-<section class="flex min-h-max justify-center">
+<section>
     <div class="mx-auto h-auto max-w-7xl mb-20 rounded-lg scroll-my-16" id="projects">
-        <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
-            <p class="p-4 text-teal dark:text-success">Projects</p>
+        <div class="flex flex-wrap py-4 mb-10 justify-around items-center font-bold text-3xl">
+            <p class="text-teal dark:text-success">Projects</p>
         </div>
         <div class="bg-slate-100 w-screen md:h-[80%] md:w-auto md:px-12 md:mb-20 rounded-md bg-opacity-90 shadow-xl">
 
@@ -14,7 +14,7 @@ class Project extends HTMLElement {
 
                 <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="p-2">
+                        <div class="px-6">
                             <img src="/img/dashboard.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -36,7 +36,7 @@ class Project extends HTMLElement {
 
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="p-2">
+                        <div class="px-6">
                             <img src="/img/kidas.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -58,7 +58,7 @@ class Project extends HTMLElement {
                     
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="p-2">
+                        <div class="px-6">
                             <img src="/img/gallery.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -81,7 +81,7 @@ class Project extends HTMLElement {
                
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
                 
-                <div class="p-2">
+                <div class="px-6">
                             <img src="/img/losangeles.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -103,7 +103,7 @@ class Project extends HTMLElement {
 
                 <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
                 
-                <div class="p-2">
+                <div class="px-6">
                             <img src="/img/homefi.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -125,7 +125,7 @@ class Project extends HTMLElement {
                     
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="p-2">
+                        <div class="px-6">
                             <img src="/img/portfolio.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -159,11 +159,3 @@ class Project extends HTMLElement {
 }
 
 window.customElements.define("project-card", Project);
-
-{
-  /* <div class="flex gap-6 p-8 w-full overflow-x-scroll snap-x">
-    <div class="flex-shrink-0 w-80 h-52 bg-cyan-300 rounded-xl snap-center">
-    </div>
-
-</div> */
-}
