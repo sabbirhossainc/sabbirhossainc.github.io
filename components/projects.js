@@ -2,16 +2,37 @@ class Project extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-
 <section class="flex min-h-max justify-center">
-    <div class="mx-auto h-auto max-w-7xl py-10 rounded-lg scroll-my-16" id="projects">
+    <div class="mx-auto h-auto max-w-7xl mb-20 rounded-lg scroll-my-16" id="projects">
         <div class="flex flex-wrap p-4 justify-around items-center font-bold text-3xl">
             <p class="p-4 text-teal dark:text-success">Projects</p>
         </div>
-        <div class="bg-slate-100 w-screen md:w-auto md:px-12 md:mb-20 rounded-md bg-opacity-90">
+        <div class="bg-slate-100 w-screen md:h-[80%] md:w-auto md:px-12 md:mb-20 rounded-md bg-opacity-90 shadow-xl">
 
             <div class="swiper mySwiper scroll-smooth">
                 <div class="swiper-wrapper items-center py-2">
+
+                <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="p-2">
+                            <img src="/img/dashboard.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#000]">
+                                EMS<span class="text-[#5700AD]"> Dashboard</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                                Employee management system (EMS),
+                                Employee management dashboard page,
+                                Next.js project 
+                            </p>
+                            <a href="https://dashboard-ems-two.vercel.app/" target="_blank"
+                                class="bg-[#5700AD] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#FCECFE] shadow-xl duration-200">
+                                <span class="text-[#FCECFE]">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
 
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 

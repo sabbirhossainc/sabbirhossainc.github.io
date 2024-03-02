@@ -23,7 +23,7 @@ class Hero extends HTMLElement {
                     Hi, I'am Sabbir.
                     </p>
                     <p class="text-lg py-2 font-semibold md:text-xl">
-                    Full Stack Web Developer
+                    Front-end Developer
                     </p>
                     <p class="text-sm font-medium text-base">
                         Sound experience in Fornt-end and UX/UI.
@@ -34,15 +34,15 @@ class Hero extends HTMLElement {
 
                     <div class="flex inline-block space-x-7 my-3 py-3 md:py-2 justify-center md:justify-start bg-slate-300 rounded-md md:pl-4 items-center shadow-md">
                         <a href="https://github.com/sabbirhossainc" target="_blank"
-                        class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
+                        class="text-teal hover:text-blue p-1 rounded-full motion-safe:animate-pulse hover:animate-none duration-200">
                             <i class="fa-brands fa-github scale-[2]"></i>
                         </a>
                         <a href="https://www.linkedin.com/in/sabbirhossainbio" target="_blank"
-                        class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
+                        class="text-teal hover:text-blue p-1 rounded-full motion-safe:animate-pulse hover:animate-none duration-200">
                             <i class="fa-brands fa-linkedin scale-[2]"></i>
                         </a>
                         <a href="https://www.facebook.com/sabbirhossainf" target="_blank"
-                        class="text-teal hover:text-blue p-1 rounded-full hover:scale-[2] motion-safe:animate-pulse hover:animate-none duration-200">
+                        class="text-teal hover:text-blue p-1 rounded-full motion-safe:animate-pulse hover:animate-none duration-200">
                             <i class="fa-brands fa-facebook scale-[2]"></i>
                         </a>
                     </div>
