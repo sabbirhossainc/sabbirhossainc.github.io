@@ -26,7 +26,7 @@ class Hero extends HTMLElement {
                     Front-end Developer
                     </p>
                     <p class="text-sm font-medium text-base">
-                        Sound experience in Fornt-end and UX/UI.
+                        Sound experience in Front-end and UX/UI.
                         </br> 
                         High level experience in web design and development, producing quality work.
                     </p>
