@@ -26,7 +26,7 @@ class Project extends HTMLElement {
                                 Employee management dashboard page,
                                 Next.js project 
                             </p>
-                            <a href="https://dashboard-ems-two.vercel.app/" target="_blank"
+                            <a href="https://dashboard-ems-two.vercel.app/dashboard/employee-management" target="_blank"
                                 class="bg-[#5700AD] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#FCECFE] shadow-xl duration-200">
                                 <span class="text-[#FCECFE]">Live</span> preview <i
                                     class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -37,20 +37,42 @@ class Project extends HTMLElement {
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
                         <div class="px-6">
-                            <img src="/img/kidas.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                            <img src="/img/flight-booking.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
-                            <p class="font-bold text-3xl text-[#0f2b5b]">
-                                Kidas<span class="text-[#51b5e0]"> School</span>
+                            <p class="font-bold text-3xl text-[#780bcd]">
+                                Flight<span class="text-[#000]"> Booking</span>
                             </p>
                             <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                            React project, Flight Booking Webapp.
                                 Website adaptable to all devices,
                                 with ui description and animated interactions.
-                                React project, Autistic School Website. Innovate | Achieve and so on.
                             </p>
-                            <a href="https://kidas.netlify.app/" target="_blank"
-                                class="bg-[#0f2b5b] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#51b5e0] shadow-xl duration-200">
-                                <span class="text-[#51b5e0]">Live</span> preview <i
+                            <a href="https://main--flight-bookingapp.netlify.app/" target="_blank"
+                                class="bg-[#780bcd] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#000] shadow-xl duration-200">
+                                <span class="text-[#fff]">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="px-6">
+                            <img src="/img/shopping-cart.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#171C2A]">
+                            Shopping<span class="text-[#00D991]"> Cart</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                            React project, Shopping Cart Webapp.
+                                Website adaptable to all devices,
+                                with ui description and animated interactions.
+                            </p>
+                            <a href="https://main--real-shopping-cart.netlify.app/" target="_blank"
+                                class="bg-[#171C2A] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#00D991] shadow-xl duration-200">
+                                <span class="text-[#00D991]">Live</span> preview <i
                                     class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>
@@ -73,6 +95,28 @@ class Project extends HTMLElement {
                             <a href="https://gallerypull.netlify.app/" target="_blank"
                                 class="bg-overRide py-1 rounded-md text-slate-200 text-center text-base font-medium px-4 hover:text-slate-900 shadow-xl duration-200">
                                 <span class="text-slate-900">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="px-6">
+                            <img src="/img/kidas.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#0f2b5b]">
+                                Kidas<span class="text-[#51b5e0]"> School</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                                Website adaptable to all devices,
+                                with ui description and animated interactions.
+                                React project, Autistic School Website. Innovate | Achieve and so on.
+                            </p>
+                            <a href="https://kidas.netlify.app/" target="_blank"
+                                class="bg-[#0f2b5b] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#51b5e0] shadow-xl duration-200">
+                                <span class="text-[#51b5e0]">Live</span> preview <i
                                     class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>

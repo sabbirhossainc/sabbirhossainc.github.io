@@ -94,7 +94,7 @@ class Skill extends HTMLElement {
                   class="fa-solid fa-caret-up text-yellow"></i></div>
             </div>
             <h1 class="text-success text-base font-medium py-2 align-right">
-              Alpine.js
+            Next.js
             </h1>
             <div class="bg-success w-full h-2 rounded-lg"></div>
             <div class="relative -top-2 bg-yellow w-[160px] md:w-60 h-2 rounded-lg">
@@ -176,7 +176,7 @@ class Skill extends HTMLElement {
           style="display: none;" class="col-span-9 md:col-span-4 w-full h-full">
           <div class="w-full h-full rounded-md p-3 md:pl-4">
             <h1 class="text-success text-base font-medium py-2 align-right">
-              Php
+            Postgresql
             </h1>
             <div class="bg-success w-full h-2 rounded-lg"></div>
             <div class="relative -top-2 bg-yellow w-52 md:w-80 h-2 rounded-lg">
@@ -206,7 +206,7 @@ class Skill extends HTMLElement {
                   class="fa-solid fa-caret-up text-yellow"></i></div>
             </div>
             <h1 class="text-success text-base font-medium py-2 align-right">
-              Laravel
+            Express.js
             </h1>
             <div class="bg-success w-full h-2 rounded-lg"></div>
             <div class="relative -top-2 bg-yellow w-52 md:w-80 h-2 rounded-lg">
