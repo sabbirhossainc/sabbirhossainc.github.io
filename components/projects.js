@@ -7,14 +7,35 @@ class Project extends HTMLElement {
         <div class="flex flex-wrap py-4 mb-10 justify-around items-center font-bold text-3xl">
             <p class="text-teal dark:text-success">Projects</p>
         </div>
-        <div class="bg-slate-100 w-screen md:h-[80%] md:w-auto md:px-12 md:mb-20 rounded-md bg-opacity-90 shadow-xl">
+        <div class="bg-slate-100 w-screen md:w-auto md:px-12 md:mb-20 rounded-md bg-opacity-90 shadow-xl">
 
             <div class="swiper mySwiper scroll-smooth">
-                <div class="swiper-wrapper items-center py-2">
+                <div class="swiper-wrapper items-center py-2 md:py-20">
+                <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="px-6 md:px-0">
+                            <img src="/img/book-store.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#000]">
+                                Book<span class="text-[#5850ec]"> Store</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                                Book store management system
+                                with json server,You can add book, delete book, edit book,
+                                a React.js project.
+                            </p>
+                            <a href="https://book-store-manage.netlify.app" target="_blank"
+                                class="bg-[#5850ec] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#000] shadow-xl duration-200">
+                                <span class="text-[#000]">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
 
                 <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="px-6">
+                        <div class="px-6 md:px-0">
                             <img src="/img/dashboard.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -36,7 +57,7 @@ class Project extends HTMLElement {
 
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="px-6">
+                        <div class="px-6 md:px-0">
                             <img src="/img/flight-booking.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -58,7 +79,7 @@ class Project extends HTMLElement {
 
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="px-6">
+                        <div class="px-6 md:px-0">
                             <img src="/img/shopping-cart.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -80,7 +101,7 @@ class Project extends HTMLElement {
                     
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="px-6">
+                        <div class="px-6 md:px-0">
                             <img src="/img/gallery.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -102,7 +123,7 @@ class Project extends HTMLElement {
 
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="px-6">
+                        <div class="px-6 md:px-0">
                             <img src="/img/kidas.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -125,7 +146,7 @@ class Project extends HTMLElement {
                
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
                 
-                <div class="px-6">
+                <div class="px-6 md:px-0">
                             <img src="/img/losangeles.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -147,7 +168,7 @@ class Project extends HTMLElement {
 
                 <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
                 
-                <div class="px-6">
+                <div class="px-6 md:px-0">
                             <img src="/img/homefi.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
@@ -169,7 +190,7 @@ class Project extends HTMLElement {
                     
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
-                        <div class="px-6">
+                        <div class="px-6 md:px-0">
                             <img src="/img/portfolio.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
                         </div>
                         <div class="w-fit md:w-full py-2 text-3xl">
