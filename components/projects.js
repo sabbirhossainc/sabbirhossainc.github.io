@@ -98,6 +98,28 @@ class Project extends HTMLElement {
                             </a>
                         </div>
                     </div>
+
+                    <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="px-6 md:px-0">
+                            <img src="/img/restrurant.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#171C2A]">
+                            Pti.<span class="text-[#FD6011]"> Restrurant</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                            React project, Restrurant Webapp landing page.
+                                Website adaptable to all devices,
+                                with ui description and animated interactions.
+                            </p>
+                            <a href="https://pti-restrurant-app.vercel.app/" target="_blank"
+                                class="bg-[#171C2A] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#FD6011] shadow-xl duration-200">
+                                <span class="text-[#FD6011]">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
                     
                     <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
