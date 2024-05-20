@@ -11,6 +11,29 @@ class Project extends HTMLElement {
 
             <div class="swiper mySwiper scroll-smooth">
                 <div class="swiper-wrapper items-center py-2 md:py-20">
+
+                <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="px-6 md:px-0">
+                            <img src="/img/blog-post.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#000]">
+                                Blog<span class="text-[#00A6BA]"> Post</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                                Blog post application, with fake json server,
+                                You can filter, bookmarked and like
+                                a React & Redux-Toolkit project.
+                            </p>
+                            <a href="https://blog-post-olive.vercel.app/" target="_blank"
+                                class="bg-[#00A6BA] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#000] shadow-xl duration-200">
+                                <span class="text-[#000]">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
                 <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
                         <div class="px-6 md:px-0">
@@ -23,7 +46,7 @@ class Project extends HTMLElement {
                             <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
                                 Book store management system
                                 with json server,You can add book, delete book, edit book,
-                                a React.js project.
+                                a React & Redux project.
                             </p>
                             <a href="https://book-store-manage.netlify.app" target="_blank"
                                 class="bg-[#5850ec] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#000] shadow-xl duration-200">
@@ -65,7 +88,7 @@ class Project extends HTMLElement {
                                 Flight<span class="text-[#000]"> Booking</span>
                             </p>
                             <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
-                            React project, Flight Booking Webapp.
+                            A React & Redux project, Flight Booking Webapp.
                                 Website adaptable to all devices,
                                 with ui description and animated interactions.
                             </p>
@@ -87,7 +110,7 @@ class Project extends HTMLElement {
                             Shopping<span class="text-[#00D991]"> Cart</span>
                             </p>
                             <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
-                            React project, Shopping Cart Webapp.
+                            A React & Redux project, Shopping Cart Webapp.
                                 Website adaptable to all devices,
                                 with ui description and animated interactions.
                             </p>
