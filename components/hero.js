@@ -67,6 +67,16 @@ class Hero extends HTMLElement {
                             Download CV
                             <i class="fa-solid fa-file-arrow-down motion-safe:animate-bounce"></i>
                             </a>
+                            <a href="mailto:shr472978@gmail.com"
+                    class="rounded-md bg-teal text-success antialiased
+                    space-x-2 p-2 md:p-3 items-center uppercase font-medium
+                    hover:bg-success hover:text-blue
+                    
+                            dark:ring-offset-0 dark:ring-inset dark:ring-success hover:ring-teal
+                            duration-300 shadow-xl">
+                            Email me
+                            <i class="fa-solid fa-file-arrow-down motion-safe:animate-bounce"></i>
+                            </a>
                             </div>
                             </div>
                             </div>
