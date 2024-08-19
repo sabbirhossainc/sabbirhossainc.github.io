@@ -75,7 +75,7 @@ class Hero extends HTMLElement {
                             dark:ring-offset-0 dark:ring-inset dark:ring-success hover:ring-teal
                             duration-300 shadow-xl">
                             Email me
-                            <i class="fa-solid fa-file-arrow-down motion-safe:animate-bounce"></i>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                             </div>
                             </div>
