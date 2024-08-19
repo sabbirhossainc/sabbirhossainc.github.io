@@ -50,33 +50,27 @@ class Hero extends HTMLElement {
                     <div class="border-t-2 mb-2 border-navy"></div>
                     
                     </div>
-                    <div class="flex order-3 md:space-x-6 md:px-4 py-3 items-center md:items-start justify-around md:justify-start">
-                    <a href="#contact" class="rounded-md bg-teal text-success antialiased
+                    <div class="flex order-3 text-sm md:text-base space-x-2 md:space-x-6 md:px-4 py-3 items-center md:items-start justify-around md:justify-start">
+                            <a href="#contact" class="rounded-md bg-teal text-success antialiased
                     p-2 md:p-3 items-center uppercase font-medium
                     hover:bg-success hover:text-blue duration-500 shadow-xl">
-                    Contact Me
+                            Contact Me
                     <i class="fa-solid fa-circle-chevron-right"></i>
                     </a>
                     <a href="/pdf/sabbir_hossain_resume.pdf"
                     class="rounded-md bg-teal text-success antialiased
                     space-x-2 p-2 md:p-3 items-center uppercase font-medium
-                    hover:bg-success hover:text-blue
-                    
-                            dark:ring-offset-0 dark:ring-inset dark:ring-success hover:ring-teal
-                            duration-300 shadow-xl">
+                    hover:bg-success hover:text-blue dark:ring-offset-0 dark:ring-inset dark:ring-success hover:ring-teal duration-300 shadow-xl">
                             Download CV
-                            <i class="fa-solid fa-file-arrow-down motion-safe:animate-bounce"></i>
-                            </a>
+                    <i class="fa-solid fa-file-arrow-down motion-safe:animate-bounce"></i>
+                    </a>
                             <a href="mailto:shr472978@gmail.com"
                     class="rounded-md bg-teal text-success antialiased
                     space-x-2 p-2 md:p-3 items-center uppercase font-medium
-                    hover:bg-success hover:text-blue
-                    
-                            dark:ring-offset-0 dark:ring-inset dark:ring-success hover:ring-teal
-                            duration-300 shadow-xl">
+                    hover:bg-success hover:text-blue dark:ring-offset-0 dark:ring-inset dark:ring-success hover:ring-teal duration-300 shadow-xl">
                             Email me
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                             </div>
                             </div>
                             </div>
