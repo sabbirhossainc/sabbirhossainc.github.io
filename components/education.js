@@ -72,57 +72,40 @@ class Education extends HTMLElement {
             <circle cx="8" cy="8" r="8" />
           </svg>
         </div>
-        <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
-        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
-          <p class="text-xl font-bold text-teal">2021</p>
-          <p class="pt-2 text-base font-semibold">Junior Fornt-end Developer</p>
-          <p class="pt-2 text-base font-medium">Expert Consortium Ltd.</p>
-        </div>
-      </li>
-      <li class="relative flex gap-3 md:gap-6 items-baseline py-4">
-        <div class="z-10">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            class="bi bi-circle-fill fill-teal dark:fill-yellow"
-            viewBox="0 0 16 16"
-          >
-            <circle cx="8" cy="8" r="8" />
-          </svg>
-        </div>
-        <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
-        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
-          <p class="text-xl font-bold text-teal">2022</p>
-          <p class="pt-2 text-base font-semibold">Junior React Developer</p>
-          <p class="pt-2 text-base font-medium">Beautysiaa Ltd.</p>
-        </div>
-      </li>
-      <li class="relative flex gap-3 md:gap-6 items-baseline py-4">
-        <div class="z-10">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            class="bi bi-circle-fill fill-teal dark:fill-yellow"
-            viewBox="0 0 16 16"
-          >
-            <circle cx="8" cy="8" r="8" />
-          </svg>
-        </div>
         <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:bg-yellow dark:before:bg-teal"></div>
         <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
-        <p class="text-xl font-bold text-teal">2023</p>
-        <p class="pt-2 text-base font-semibold">Front-end Developer</p>
-        <p class="pt-2 text-base font-medium">Xebec Trading Service</p>
+        <p class="text-xl font-bold text-teal">2022</p>
+        <p class="pt-2 text-base font-semibold">Junior Web Developer</p>
+        <p class="pt-2 text-base font-medium">Beautysiaa Ltd.</p>
         </div>
       </li>
-    </ul>
-  </div>
-</section>
-        `;
+      </ul>
+      </div>
+      </section>
+      `;
     }
 }
 
 
 window.customElements.define('education-card', Education);
+
+      
+      // <li class="relative flex gap-3 md:gap-6 items-baseline py-4">
+      //   <div class="z-10">
+      //     <svg
+      //       xmlns="http://www.w3.org/2000/svg"
+      //       width="14"
+      //       height="14"
+      //       class="bi bi-circle-fill fill-teal dark:fill-yellow"
+      //       viewBox="0 0 16 16"
+      //     >
+      //       <circle cx="8" cy="8" r="8" />
+      //     </svg>
+      //   </div>
+      //   <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
+      //   <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
+      //     <p class="text-xl font-bold text-teal">2021</p>
+      //     <p class="pt-2 text-base font-semibold">Fornt-end Developer intern</p>
+      //     <p class="pt-2 text-base font-medium">Expert Consortium Ltd.</p>
+      //   </div>
+      // </li>
