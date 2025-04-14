@@ -20,7 +20,7 @@ class Hero extends HTMLElement {
             <div class="order-1 h-auto items-center px-4">
                 <div class="order-2 md:px-4 dark:text-success md:mt-10">
                     <p class="text-2xl font-medium text-4xl md:text-5xl">
-                    Hi, I'am Sabbir.
+                    Md. Sabbir Hossain
                     </p>
                     <p class="text-lg py-2 font-semibold md:text-xl">
                     Front-end Developer

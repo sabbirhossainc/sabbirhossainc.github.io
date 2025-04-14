@@ -7,7 +7,7 @@ class About extends HTMLElement {
 <div class="mx-auto h-auto max-w-7xl p-6 py-6 scroll-my-16"
  id="about">
       <div class="flex flex-wrap py-4 mb-10 justify-around items-center font-bold text-3xl">
-            <p class="text-teal dark:text-success">About</p>
+            <p class="text-teal dark:text-success">About Me</p>
             </div>
       <div
         class="bg-teal text-white text-justify p-12 my-6 mb-20 shadow-md rounded-md md:shadow-lg bg-opacity-90 hover:bg-opacity-100 duration-200"
@@ -15,21 +15,25 @@ class About extends HTMLElement {
         <p class="text-success font-bold text-center uppercase">
           _ Hello, Sabbir here _
         </p>
-        <!-- <br> -->
+     </br> 
         <p
-          class="text-success flow-root pt-10 first-letter:text-3xl indent-8 font-medium justify-center"
+          class="text-success flow-root pt-6 first-letter:text-3xl indent-8 font-medium justify-center"
         >
-        The first quality that comes to my mind is I am a quick learner and a self-motivated person. On top of that, I managed to participate in range of seminars and workshops.
-        I have completed my bachelor of computer science and engineering degree from Daffodil International University. My goal is to become a Full Stack Developer and I love to inspire people who can eventually help to reach their goals. I believe in people motivation and people management which I am passionate about fascinated by work.
+        Next.js Developer with a solid foundation in creating fast, scalable, and SEO-friendly web applications. Proficient in
+modern React architecture, API integration, server-side rendering, and performance optimization. Committed to
+writing clean code, focusing on user-centric design, and ensuring smooth developer experiences.
+    </br>     </br> 
+        I am a quick learner and a self-motivated individual. Additionally, I have participated in a variety of seminars and workshops. 
+I earned my Bachelor’s degree in Computer Science and Engineering from Daffodil International University. My goal is to become a Full Stack Developer, and I am passionate about inspiring others to achieve their own goals. I believe in the power of motivation and effective people management, which fascinates me in my work.
       </p>
-        <p class="text-success font-medium justify-center py-5">
-          <strong class="text-yellow">Front-End:</strong> &nbsp; HTML,CSS, Tailwind CSS, Alpine.js, React.js, Redux, Next.js <br>
-          <strong class="text-yellow">Back-End:</strong>&nbsp; Node.js, MongoDb, MySQL, PostgreSQL<br>
+      <!--  <p class="text-success font-medium justify-center py-5">
+          <strong class="text-yellow">Front-End:</strong> &nbsp; HTML,CSS, Tailwind CSS, Chart.js, React.js, Redux, Next.js <br>
           <strong class="text-yellow">Tools:</strong>&nbsp; Git, GitHub, Chrome Dev Tools<br>
           <strong class="text-yellow">Professional:</strong>&nbsp; Remote Work, Pair-Programming, Teamwork<br>
-        </p>
+        </p> -->
+        </br> 
         <p class="text-success pb-10 font-medium justify-center">
-        Do not hesitate to contact me if you are willing to collaborate or need your application coded. Connect with me or send me an email at <span class="text-yellow select-all">shr472978@gmail.com</span> 
+        Feel free to reach out if you are interested in collaborating or need assistance with your application. You can connect with me here or email me at <span class="text-yellow select-all">shr472978@gmail.com</span>.
         </p>
       </div>
     </div>

@@ -13,13 +13,10 @@ class Contact extends HTMLElement {
             <div
                 class="w-full col-span-9 md:col-span-4 space-y-6 md:space-y-8 rounded-lg bg-teal py-8 md:py-24 shadow-2xl">
                 <div class="flex justify-center p-2">
-                    <i class="fa-solid fa-users-between-lines text-yellow scale-[3]"></i>
+                    <i class="fa-solid fa-face-smile text-yellow scale-[3]"></i>
                 </div>
                 <div class="flex justify-center p-2">
                     <p class="font-semibold text-2xl md:text-3xl text-success">Get In Touch</p>
-                </div>
-                <div class="flex justify-center p-2">
-                    <i class="fa-solid fa-face-smile text-yellow scale-[3]"></i>
                 </div>
             </div>
 

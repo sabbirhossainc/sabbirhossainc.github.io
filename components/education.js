@@ -60,6 +60,50 @@ class Education extends HTMLElement {
           <p class="pt-2 text-base font-medium">ICT DIVISION | Userhub</p>
         </div>
       </li>
+
+<li class="relative flex gap-3 md:gap-6 items-baseline py-4">
+        <div class="z-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            class="bi bi-circle-fill fill-teal dark:fill-yellow"
+            viewBox="0 0 16 16"
+          >
+            <circle cx="8" cy="8" r="8" />
+          </svg>
+        </div>
+        <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
+        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
+          <p class="text-xl font-bold text-teal">2020 - 2021</p>
+          <p class="pt-2 text-base font-semibold">
+            Full Stack Web Development With Python & JavaScript
+          </p>
+          <p class="pt-2 text-base font-medium">Bohubrihi</p>
+        </div>
+      </li>
+
+      <li class="relative flex gap-3 md:gap-6 items-baseline py-4">
+        <div class="z-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            class="bi bi-circle-fill fill-teal dark:fill-yellow"
+            viewBox="0 0 16 16"
+          >
+            <circle cx="8" cy="8" r="8" />
+          </svg>
+        </div>
+        <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:w-[2px] before:bg-yellow dark:before:bg-teal"></div>
+        <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
+          <p class="text-xl font-bold text-teal">2022 - 2023</p>
+          <p class="pt-2 text-base font-semibold">
+            Junior Web Developer
+          </p>
+          <p class="pt-2 text-base font-medium">Beautysiaa Ltd.</p>
+        </div>
+      </li>
       <li class="relative flex gap-3 md:gap-6 items-baseline py-4">
         <div class="z-10">
           <svg
@@ -74,9 +118,9 @@ class Education extends HTMLElement {
         </div>
         <div class="before:absolute before:left-[5.5px] before:lg:left-[6px] before:h-full before:bg-yellow dark:before:bg-teal"></div>
         <div class="bg-yellow dark:bg-success bg-opacity-50 rounded-lg p-3 hover:bg-opacity-80 dark:hover:bg-opacity-90 shadow-xl duration-200">
-        <p class="text-xl font-bold text-teal">2022</p>
-        <p class="pt-2 text-base font-semibold">Junior Web Developer</p>
-        <p class="pt-2 text-base font-medium">Beautysiaa Ltd.</p>
+        <p class="text-xl font-bold text-teal">2024 - Current</p>
+        <p class="pt-2 text-base font-semibold">Front End Developer</p>
+        <p class="pt-2 text-base font-medium">eBitans Limited.</p>
         </div>
       </li>
       </ul>

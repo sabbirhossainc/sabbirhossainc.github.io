@@ -7,7 +7,7 @@ class Nav extends HTMLElement {
                     isOpen: false,
                     tab: 'tab1'
                 }" 
-                class="mx-auto max-w-7xl px-12 sm:px-7 lg:px-8">
+                class="mx-auto max-w-7xl px-6">
         <div class="flex h-16 items-center justify-between gap-6">
             <div class="flex items-center">
 
@@ -39,7 +39,7 @@ class Nav extends HTMLElement {
             </div>
 
             <!-- Dark mode -->
-            <div class="ml-auto hidden md:block">
+            <div class="hidden md:block">
 
             <div class="flex justify-center items-center">
 
@@ -54,25 +54,6 @@ class Nav extends HTMLElement {
 
 
             <!-- Profile -->
-
-            <div class="block">
-            <div class="flex items-center justify-center gap-4">
-            <div class="block md:hidden">
-                            <img class="h-8 w-8 rounded-md ring-1 ring-slate-400"
-                                src="/img/sabbir(350).png" alt="Your Company">
-                        </div>
-                        <div>
-                            <span class="sr-only">Open user menu</span>
-                            <p class="text-slate-300 py-2 rounded-md text-base font-medium antialiased">
-                                Md. Sabbir Hossain
-                            </p>
-                        </div>
-                        <div class="hidden md:block">
-                            <img class="h-8 w-8 rounded-md ring-1 ring-slate-400"
-                                src="/img/sabbir(350).png" alt="Your Company">
-                        </div>
-                </div>
-            </div>
 
             <div class="-mr-2 flex items-inline justify-center md:hidden">
 

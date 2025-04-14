@@ -32,7 +32,49 @@ class Project extends HTMLElement {
                                     class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>
-                    </div>
+                </div>
+
+                 <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="px-6 md:px-0">
+                            <img src="/img/physio-rehab-practice.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#3F83F8]">
+                                Flex fast<span class="text-[#5700AD]"> physio</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                                Genuine Physio solution for all in UK,
+                                a Next.js, Tailwind css project.
+                            </p>
+                            <a href="https://physio-rehab-practice.netlify.app/" target="_blank"
+                                class="bg-[#FCECFE] py-1 rounded-md text-[5700AD] text-center text-base font-medium px-4 hover:text-[#3F83F8] shadow-xl duration-200">
+                                <span class="text-[#5700AD]">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                </div>
+
+                <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
+
+                        <div class="px-6 md:px-0">
+                            <img src="/img/erp-solution.png" alt="" class="flex-shrink-0 rounded-md shadow-xl">
+                        </div>
+                        <div class="w-fit md:w-full py-2 text-3xl">
+                            <p class="font-bold text-3xl text-[#081A51]">
+                                Erp<span class="text-[#004400]"> Solution</span>
+                            </p>
+                            <p class="text-base text-justify p-8 md:p-3 w-screen md:w-auto">
+                                Total Erp solution for any company,
+                                a Tailwind css project.
+                            </p>
+                            <a href="https://erp-master.netlify.app/" target="_blank"
+                                class="bg-[#004400] py-1 rounded-md text-white text-center text-base font-medium px-4 hover:text-[#D0EAD0] shadow-xl duration-200">
+                                <span class="text-[#D0EAD0]">Live</span> preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                </div>
 
                 <div class="swiper-slide w-full flex-wrap md:flex-nowrap py-6 md:px-32 gap-8 md:gap-12">
 
